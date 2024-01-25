@@ -10,7 +10,7 @@ packages:
 
 
 dashboard_import:
-  package_import_url: github://Innovative-Cloud-Technologies/PLF10/kauf-plug.yaml
+  package_import_url: github://Innovative-Cloud-Technologies/Kauf-PLF10/kauf-plug.yaml
 
 
 esphome:
