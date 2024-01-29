@@ -118,6 +118,7 @@ preferences:
 # https://esphome.io/components/esphome.html
 esphome:
   name: $name
+  friendly_name: ${friendly_name}
 
   project:
     name: $project_name
@@ -142,7 +143,7 @@ wifi:
   output_power: 17
 
   # using fast_connect as default since it is required for hidden networks.
-  fast_connect: true
+  fast_connect: True
 
   # enable wifi ap with ridiculous timeout so it does not normally turn on.
   ap:
